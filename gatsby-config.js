@@ -7,5 +7,14 @@ module.exports = {
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `blog`,
+        path: `${__dirname}/posts`,
+      },
+    },
+    "gatsby-plugin-mdx",
+    "gatsby-plugin-altair-graphql",
   ],
 };
