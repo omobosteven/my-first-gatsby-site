@@ -16,5 +16,6 @@ module.exports = {
     },
     "gatsby-plugin-mdx",
     "gatsby-plugin-altair-graphql",
+    "gatsby-transformer-sharp",
   ],
 };
